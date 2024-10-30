@@ -1,0 +1,13 @@
+db.system.users.find().pretty()
+show collections
+use admin
+db.runCommand({ getCmdLineOpts: 1 }).parsed.net
+db.serverStatus().connections
+db.ventas.find().pretty()
+db.empleados.find().pretty()
+db.clientes.find().pretty()
+db.GYM-MANAGEMENT.find().pretty()
+db.GYM-MANAGEMENT.found().pretty()
+show collections
+use GYM-MANAGEMENT
+show dbs
